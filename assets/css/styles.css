@@ -269,11 +269,11 @@ header .wraper {
   line-height: 16px;
 } */
 header a {
-  color: #8d9095;
+  color: black;
   text-decoration: none;
 }
 header a:hover {
-  color: #8d9095;
+  color: black;
   text-decoration: underline;
 }
 .social-links li {
@@ -1054,6 +1054,12 @@ iframe {
   width: 25%;
 }
 
+.drjang {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .drjan {
   text-align: left;
   padding: 71px;
@@ -1130,7 +1136,11 @@ header .wraper .fr .fl {
   text-align: left;
   display: block;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
+  .fl a {
+    display: block;
+  }
+
   .wrp-con > p {
     color: black;
     display: block;
@@ -1152,9 +1162,6 @@ header .wraper .fr .fl {
     height: 53px;
     width: 220px;
     margin-bottom: 0px;
-  }
-  .fl.skype {
-    display: none;
   }
   .jang {
     text-align: left;
