@@ -1095,6 +1095,7 @@ h1.contact {
   font-size: 26px;
 }
 header .wraper .fr .fl {
+  display: grid;
   font-size: 16px;
   text-align: right;
   line-height: 16px;
@@ -1149,7 +1150,11 @@ header .wraper .fr .fl {
 
   .social-links1.fr2 {
     text-align: center;
-    /* padding: 0px; */
+    margin-top: 12px;
+  }
+
+  .fl .fr2 {
+    text-align: center;
     margin-top: 12px;
   }
   header .col > .fr {
