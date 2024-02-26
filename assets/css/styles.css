@@ -262,12 +262,12 @@ header .wraper {
   border-bottom: 1px solid #c0c0c0;
   padding: 16px 0 15px;
 }
-header .wraper .fr .fl {
+/* header .wraper .fr .fl {
   margin-right: 12px;
   padding-right: 12px;
   text-align: right;
   line-height: 16px;
-}
+} */
 header a {
   color: #8d9095;
   text-decoration: none;
@@ -1047,6 +1047,11 @@ iframe {
 .float_phone img {
   width: 100%;
 }
+
+.col-sm-2 {
+  width: 25%;
+}
+
 .drjan {
   text-align: left;
   padding: 71px;
@@ -1082,11 +1087,9 @@ h1.contact {
   font-size: 26px;
 }
 header .wraper .fr .fl {
-  margin-right: 12px;
-  padding-right: 12px;
+  font-size: 16px;
   text-align: right;
   line-height: 16px;
-  margin-bottom: 21px;
 }
 
 .section6 .wraper1 {
