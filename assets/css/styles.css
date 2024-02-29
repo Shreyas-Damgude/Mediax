@@ -699,6 +699,11 @@ footer .col-1:nth-child(2) {
   height: auto;
 }
 
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
 .wraper.pad-bot {
   padding-bottom: 25px;
 }
