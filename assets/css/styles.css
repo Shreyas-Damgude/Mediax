@@ -704,8 +704,12 @@ footer .col-1:nth-child(2) {
   justify-content: center;
 }
 
-.carousel-inner {
+.testimonials-inner {
   width: 33.33% !important;
+}
+
+.testimonials-indicators {
+  margin: 0 20% !important;
 }
 
 .wraper.pad-bot {
@@ -1916,7 +1920,7 @@ header .wraper .fr .fl {
     text-align: center;
   }
 
-  .carousel-inner {
+  .testimonials-inner {
     width: 100% !important;
   }
 }
