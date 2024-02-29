@@ -647,7 +647,7 @@ footer .col-1:nth-child(2) {
 
 .ip-vdo ul li {
   display: inline-block;
-  padding: 0 0 0 0;
+  padding: 0;
 }
 
 .overley {
@@ -702,6 +702,10 @@ footer .col-1:nth-child(2) {
 .carousel {
   display: flex;
   justify-content: center;
+}
+
+.carousel-inner {
+  width: 33.33% !important;
 }
 
 .wraper.pad-bot {
@@ -1910,6 +1914,10 @@ header .wraper .fr .fl {
   p,
   h3 {
     text-align: center;
+  }
+
+  .carousel-inner {
+    width: 100% !important;
   }
 }
 
